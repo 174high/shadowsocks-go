@@ -1,0 +1,14 @@
+1. go get github.com/shadowsocks/shadowsocks-go/cmd/shadowsocks-local
+
+2. git clone https://github.com/golang/sys
+
+3. git clone https://github.com/golang/crypto 
+
+copy to /root/go/src/golang.org/x/
+
+to fix the issue can not find sys crypto 
+
+
+4. run local 
+
+go run cmd-make/shadowsocks-local/local.go
